@@ -1,12 +1,34 @@
-int _putchar(char c);
-void print_alphabet(void);
-void print_alphabet_x10(void);
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
-void jack_bauer(void);
-void times_table(void);
-int add(int, int);
-void print_to_98(int n);
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * Positive_Negative
+ * Return: Always 0 (Successs/correct)
+ */
+int main(void)
+{
+        int n;
+
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+
+        if (n == 0)
+        {
+        printf("%i is zero\n", n)
+        }
+
+        else if (n < 0)
+        {
+        printf("%i is negative\n", n)
+        }
+
+        else
+        {
+        printf ("%i is positive\n", n)
+        }
+
+        return (0);
+}
+

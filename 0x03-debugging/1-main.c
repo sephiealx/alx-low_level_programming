@@ -13,12 +13,12 @@ int main(void)
 
 	i = 0;
 
-        while (i < 10, i is supposed to be increasing )
+	while (i < 10,)
         {
-                putchar(i);
+		 putchar(i);there should be an increament
         }
 
-        printf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
-        return (0);
+	return (0);
 }

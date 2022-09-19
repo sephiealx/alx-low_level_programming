@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * program that develops random passwords
  */
 int main(void)
 {

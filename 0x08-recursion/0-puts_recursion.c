@@ -9,7 +9,8 @@
 void _puts_recursion(char *s)
 {
 	if (*s == '\0') //Base case
-		return (0);
-	printf("%c", *s);
-	print(++s);
+	{
+		_putchar('\n');
+		return;
+	}
 }
